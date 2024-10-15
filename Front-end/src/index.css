@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+  color: #2C3E50;
+}
+
+p,
+span {
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+}
+
+.btn-primary {
+  background-color: #e6b61c;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e8be38;
+}
+
+Link {
+  color: #800020;
+  transition: color 0.3s ease;
+}
+
+Link:hover {
+  color: #D4AF37;
+}
